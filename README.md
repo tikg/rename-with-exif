@@ -17,7 +17,7 @@ git clone https://github.com/exiftool/exiftool.git
 #### Pull 
 - First, Navigate to the directory you have the files with metadata
 ```
-
+git clone https://github.com/tikg/rename-with-exif.git
 ```
 #### Execute bash and indicate filetype
 ```
