@@ -14,7 +14,7 @@ target_dir="_exif_renamed"
 mkdir -p "$target_dir"
 
 # tik added
-ls -lh $1
+ls -lh *.${1}
 
 # Loop through all files with the specified extension
 for file in *."$extension"; do
@@ -47,3 +47,5 @@ for file in *."$extension"; do
 done
 
 echo "All files processed and moved to $target_dir."
+
+ls -lh $target_dir/*.${1}
