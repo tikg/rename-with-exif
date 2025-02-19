@@ -1,5 +1,6 @@
 # Tik's exif rename
 ### Rename any file with metadata from the file and move it to a different directory
+- current release only takes into account Make and CreateDate to identify which Device it was recorded from. future considerations will follow
 
 #### Download and clone exiftool
 ```
