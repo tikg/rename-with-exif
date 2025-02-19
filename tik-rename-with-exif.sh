@@ -40,6 +40,10 @@ for file in *."$extension"; do
   mv "$file" "$target_dir/$new_filename"
 
   echo "Renamed and moved: $file -> $target_dir/$new_filename"
+  
+  # repeat command but redirect to log file
+  echo "Renamed and moved: $file -> $target_dir/$new_filename" >> $(date +"%Y-%m-%d_%H00_%Z")-rename-with-exif.log
+
 done
 
 echo "All files processed and moved to $target_dir."
