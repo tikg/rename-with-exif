@@ -16,12 +16,15 @@ git clone https://github.com/exiftool/exiftool.git
 ```
 
 #### Pull 
-- First, Navigate to the directory you have the files with metadata
+- First, Navigate to the directory you have the files with metadata then execute below
 ```
 git clone https://github.com/tikg/rename-with-exif.git
+cp rename-with-exif/tik-rename-with-exif.sh .
 ```
+### Now you're ready to execute!
 #### Execute bash and indicate filetype
 ```
-./tik-exif-rename.sh JPG 
+# Sample command, replace <JPG> with the filetype you desire
+./tik-exif-rename.sh <JPG>
 ```
 
